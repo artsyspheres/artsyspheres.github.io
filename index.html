@@ -13,11 +13,8 @@
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel="stylesheet" type="text/css" href="css/flexslider.css" type="text/css">
 <!-- Include jQuery library and Flexslider script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider-min.js"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css" integrity="sha512-c7jR/kCnu09ZrAKsWXsI/x9HCO9kkpHw4Ftqhofqs+I2hNxalK5RGwo/IAhW3iqCHIw55wBSSCFlm8JP0sw2Zw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -42,33 +39,41 @@
 </div>
 
 <!-- About / Art in Spheres -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="about">
+<div class="w3-container w3-padding-64 w3-pale-red w3-center" id="about">
   <h1 class="w3-jumbo w3-text-grey w3-center"><b>Art in Spheres</b></h1>
   <h2 class="w3-text-grey w3-center">Sharing the beauty of <b>Mother Nature</b>,</h2>
   <h2 class="w3-text-grey w3-center">one sphere at a time...</h2>
-  <div class="flexslider">
-    <ul class="slides"></ul>
-    <li>
-      <img class="w3-round" src="assets/img/IMG_0027.jpg" style="width:100%;margin:32px 0">
-    </li>
-    <li>
-      <img class="w3-round" src="assets/img/IMG_0033.jpg" style="width:100%;margin:32px 0">
-    </li>
-    <img class="w3-round" src="assets/img/IMG_0037.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0042.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0025.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0043.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0051.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0057.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0060.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0071.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0072.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0074.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0078.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0082.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0162.jpg" style="width:100%;margin:32px 0">
-    <img class="w3-round" src="assets/img/IMG_0170.jpg" style="width:100%;margin:32px 0">
+  <div class="flexslider w3-center w3-container">
+    <ul class="slides">
+      <li><img src="assets/img/IMG_0025.jpg"></li>
+      <li><img src="assets/img/IMG_0027.jpg"></li>
+      <li><img src="assets/img/IMG_0033.jpg"></li>
+      <li><img src="assets/img/IMG_0037.jpg"></li>
+      <li><img src="assets/img/IMG_0042.jpg"></li>
+      <li><img src="assets/img/IMG_0043.jpg"></li>
+      <li><img src="assets/img/IMG_0051.jpg"></li>
+      <li><img src="assets/img/IMG_0057.jpg"></li>
+      <li><img src="assets/img/IMG_0060.jpg"></li>
+      <li><img src="assets/img/IMG_0071.jpg"></li>
+      <li><img src="assets/img/IMG_0072.jpg"></li>
+      <li><img src="assets/img/IMG_0074.jpg"></li>
+      <li><img src="assets/img/IMG_0078.jpg"></li>
+      <li><img src="assets/img/IMG_0082.jpg"></li>
+      <li><img src="assets/img/IMG_0162.jpg"></li>
+      <li><img src="assets/img/IMG_0170.jpg"></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js" integrity="sha512-BmoWLYENsSaAfQfHszJM7cLiy9Ml4I0n1YtBQKfx8PaYpZ3SoTXfj3YiDNn0GAdveOCNbK8WqQQYaSb0CMjTHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(document).ready(function(){
+        $('.flexslider').flexslider({
+          animation: "slide",
+        });
+      });
+    </script>
 
+  </div>
+  <div class="w3-content w3-center">
     <p><i>Crystal spheres are truly mesmerizing works of art. 
       The intricate patterns and designs, combined with the translucent properties of the crystal, create an ethereal beauty that is hard to resist. 
       The way light shines through the sphere, creating a kaleidoscope of colors, is simply captivating. 
