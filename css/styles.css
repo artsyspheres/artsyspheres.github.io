@@ -1,10 +1,16 @@
-body,h1,h2{font-family: "Raleway", sans-serif}
+body,h1,h2{font-family: "Montserrat", sans-serif}
 body, html {height: 100%}
 p {line-height: 2}
-.bgimg, .bgimg2 {
+.bgimg {
+  min-height: 50%;
+  min-width: fit-content;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg2 {
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
-.bgimg {background-image: url("../assets/img/artspheres.jpg")}
+.bgimg {background-image: url("../assets/img/artspheres_inverse.jpg")}
 .bgimg2 {background-image: url("../assets/img/IMG_0162.jpg")}
