@@ -1,16 +1,40 @@
 body,h1,h2{font-family: "Montserrat", sans-serif}
 body, html {height: 100%}
 p {line-height: 2}
+/* .bgimg, .bgimg2 {
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+} */
+
 .bgimg {
-  min-height: 50%;
-  min-width: fit-content;
+  min-height: 100%;
+  /* max-width: 100%; */
+  /* height: auto; */
   background-position: center;
   background-size: cover;
 }
+@media screen and (orientation: portrait) {
+  .bgimg {
+    min-height: 100%;
+    max-width: 100%;
+    background-image: url("../assets/img/artspheres_inverse.jpg")};
+}
+
+@media screen and (orientation: landscape) {
+  .bgimg {
+    min-height: 100%;
+    background-image: url("../assets/img/artsyspheres2.jpg")};
+}
 .bgimg2 {
+  /* opacity: 10%; */
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
-.bgimg {background-image: url("../assets/img/artspheres_inverse.jpg")}
+
+
+/* .bgimg {background-image: url("../assets/img/artspheres_inverse.jpg")} */
+.bgimg {background-image: url("../assets/img/artsyspheres2.jpg")}
 .bgimg2 {background-image: url("../assets/img/IMG_0162.jpg")}
