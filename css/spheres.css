@@ -1,1 +1,5 @@
-.w3-thumb-square{aspect-ratio: 1/1;}
+.container-sand,.w3-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+body,h1,h2{font-family: "Montserrat", sans-serif}
+
+/* Style all font awesome icons */
+.fa-large:hover{opacity:.5} 
